@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+        "id": 1,
+      "question": "Name a liquid that is red",
+      "answers": ["blood", "wine", "ketchup", "ink", "paint"]
+    },
+    {
+        "id": 2,
+      "question": "Name any county of England beginning with the letter 'D'",
+      "answers": ["Devon", "Derbyshire", "Durham", "Dorset"]
+    }
+  ]
+}

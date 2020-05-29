@@ -1,27 +1,32 @@
+/* eslint-disable vue/valid-v-for */
 <template>
   <div class="wrapper">
-    <h1>Name a type of red liquid</h1>
-    <ol>
-      <Answer answer="Blood" />
-      <Answer answer="Wine" />
-      <Answer answer="Ketchup" />
-      <Answer answer="Ink" />
-      <Answer answer="Paint" />
-    </ol>
+    <div v-for="q in questionAndAnswers" :key="q.id">
+      <h1>{{ q.question }}</h1>
+      <ol>
+        <Answer v-for="a in q.answers" v-bind:answer="a" v-bind:key="a" />
+      </ol>
+    </div>
   </div>
 </template>
 
 <script>
 import Answer from "@/components/Answer.vue";
+import data from "@/assets/qa.json";
 
 export default {
-  name: "HelloWorld",
+  name: "Question",
   props: {
-    msg: String,
+    msg: String
   },
   components: {
-    Answer,
+    Answer
   },
+  computed: {
+    questionAndAnswers() {
+      return data.questions;
+    }
+  }
 };
 </script>
 

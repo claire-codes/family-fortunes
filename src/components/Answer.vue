@@ -1,9 +1,9 @@
 <template>
   <div class="wrapper">
-      <li>
-        <span class="answer" v-show="isOpen">{{ answer }}</span
-        ><button @click="toggle()" type="button">?</button>
-      </li>
+    <li>
+      <span class="answer" v-show="isOpen">{{ answer }}</span>
+      <button @click="toggle()" type="button">?</button>
+    </li>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 export default {
   name: "Answer",
   props: {
-    answer: String,
+    answer: String
   },
   data: function() {
     return { isOpen: false };
@@ -19,8 +19,8 @@ export default {
   methods: {
     toggle: function() {
       this.isOpen = !this.isOpen;
-    },
-  },
+    }
+  }
 };
 </script>
 
