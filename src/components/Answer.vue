@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
     <li>
-      <span class="answer" v-show="isOpen">{{ answer }}</span>
-      <button @click="toggle()" type="button">?</button>
+      <span><span class="answer" v-show="isOpen">{{ answer }}</span>
+      <button @click="toggle()" type="button">?</button></span>
     </li>
   </div>
 </template>
@@ -26,6 +26,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+@font-face {
+  font-family: 'Visitor1';
+  src:  url('../assets/visitor1.woff') format('woff');
+}
+
 .answer {
   // display: none;
 }
@@ -38,6 +43,7 @@ ul {
 }
 li {
   margin: 0 10px;
+  font-family: 'Visitor1', cursive;
 }
 a {
   color: #42b983;
