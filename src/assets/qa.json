@@ -1,14 +1,65 @@
 {
-  "questions": [
-    {
-        "id": 1,
-      "question": "Name a liquid that is red",
-      "answers": ["blood", "wine", "ketchup", "ink", "paint"]
-    },
-    {
-        "id": 2,
-      "question": "Name any county of England beginning with the letter 'D'",
-      "answers": ["Devon", "Derbyshire", "Durham", "Dorset"]
-    }
-  ]
+	"questions": [{
+			"id": 1,
+			"question": "Name a liquid that is red",
+			"answers": ["blood", "wine", "ketchup", "ink", "paint"]
+		},
+		{
+			"id": 2,
+			"question": "Name a way that people communicated before texting was invented",
+			"answers": [
+				"Phone calls (30)",
+				"Beeper/pager (24)",
+				"Letters (20)",
+				"Telegram (13)",
+				"Carrier pigeon (10)"
+			]
+		},
+		{
+			"id": 3,
+			"question": "Name something guests do at a wedding reception",
+			"answers": [
+				"Dance (30)",
+				"Eat (25)",
+				"Drink (20)",
+				"Clap (15)",
+				"Take pictures (10)"
+			]
+		},
+		{
+			"id": 4,
+			"question": "Name something at home that people often run out of",
+			"answers": [
+				"Milk (30)",
+				"Toilet paper (29)",
+				"Bread (18)",
+				"Eggs (13)",
+				"Hand soap (10)"
+			]
+		},
+		{
+			"id": 5,
+			"question": "Name something people cut",
+			"answers": [
+				"Hair 49",
+				"Paper 12",
+				"Meat 10",
+				"Grass 7",
+				"Finger 6",
+				"Fingernail 3"
+			]
+		},
+		{
+			"id": 6,
+			"question": "Name a weapon you throw",
+			"answers": [
+				"Spear 39",
+				"Knife 23",
+				"Grenade 7",
+				"Rock 7",
+				"Arrow 6",
+				"Dart 6"
+			]
+		}
+	]
 }
